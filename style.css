@@ -161,7 +161,7 @@ button {
     width: 200px;
     height: 60px;
     align-self: center;
-    
+    text-decoration: none;
     border-radius: 5px;
     font-size: 1.3em;
     
@@ -169,6 +169,7 @@ button {
 }
 
 button:hover {
+    
     color: #fff;
     background: #bc272e;
     cursor: pointer;

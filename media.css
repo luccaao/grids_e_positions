@@ -29,7 +29,8 @@
         border-radius: 10px;
         width: 419px;
         height: 500px;
-        margin: auto;
+        margin: 0 auto;
+        
     }
 
     form {
