@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+
+@font-face {
+    font-family: dead;
+    src: url(./font/chinese_rocks/chinese\ rocks\ rg.otf);
+}
+
+body {
+    /* background-image: linear-gradient(to left, red, black) ; */
+    background: url(./imagens/backgr.jpg) no-repeat;
+    background-size: auto;
+    
+    
+}
+
+header {
+    width: 100%;
+    background: black;
+}
+
+nav a img {
+    display: flex;
+    
+     width: 200px;
+}
+
+nav{
+    display: flex;
+
+    justify-content:space-evenly;
+    
+
+    
+}
+
+.navbar  {
+    
+    font-family: dead;
+    align-items: center;
+    
+    
+    display: flex;
+    
+    gap: 40px;
+    
+}
+
+.navbar li {
+    
+    list-style-type: none;
+    
+}
+
+.navbar li a {
+    display: flex;
+    justify-content: flex-start;
+    color: #fdfbfb;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    border-top: #FCAF17 5px solid;
+    color: #E4121D;
+}
+
+.baixar {
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+    
+    margin: 0;
+    
+}
+
+.claro {
+    color: white;
+    
+    transition: 0.5s;
+    border-radius: 5px;
+    
+}
+
+.claro:hover {
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+    color: #FCAF17;
+    
+    
+}
+
+
+
+.container{
+
+    display: flex;
+    justify-content: start;
+    margin: 200px 30px 30px 30px;
+    
+}
+
+/* .imagem-left{
+    
+    width: 600px;
+    height: 600px;
+} */
+
+.formulario {
+    
+    background: rgba(0, 0, 0, 0.4) ;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    
+    
+    
+}
+
+.formulario img {
+    cursor: pointer;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-right: 150px;
+    width: 300px;
+}
+
+form {
+    width: 450px;
+    font-family: dead;
+    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+form span {
+    padding-left: 10px;
+}
+
+
+
+form input {
+    font-family: dead;
+    padding-left: 10px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+button {
+    
+    margin-top: 20px;
+    font-family: dead;
+    background:#E4121D ;
+    width: 200px;
+    height: 60px;
+    align-self: center;
+    
+    border-radius: 5px;
+    font-size: 1.3em;
+    
+
+}
+
+button:hover {
+    color: #fff;
+    background: #bc272e;
+    cursor: pointer;
+    
+
+}
+
+.icon p {
+    cursor: auto;
+}
+
+.icon  {
+    cursor: pointer;
+    padding-top: 30px;
+    margin: auto;
+    color: #fff;
+    gap: 20px;
+    display: flex;
+    text-decoration: none;
+}
+
+.icon li {
+    list-style-type: none;
+}
+
+.para {
+    
+    
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+.para a {
+    color: #FCAF17;
+    text-decoration: none;
+}
+
+.para a:hover {
+    color: #FCAF17;
+    text-decoration: underline;
+}
+
+#home .home {
+    color: #FCAF17;
+}
+
+
+#burguer {
+    
+    padding-top: 25px;
+    
+}
+
+#burguer:hover {
+    cursor: pointer;
+    
+    
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background: black ;
+    padding: 5px;
+    
+
+
+}
+
+.rodape {
+    color: #FCAF17;
+    font-family: dead;
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

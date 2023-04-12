@@ -1,0 +1,68 @@
+@media screen and (min-width: 1234px) {
+    
+    .formulario {
+        margin-left: 200px;
+    }
+    body {
+        background-position: center;
+        
+    }
+
+    #burguer {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:1230px){
+    
+     .navbar {
+        display:none;
+        
+        
+        
+    }
+
+    .formulario {
+        
+        background: rgba(0, 0, 0, 0.4) ;
+        border-radius: 10px;
+        width: 419px;
+        height: 500px;
+        margin: auto;
+    }
+
+    form {
+        width: 400px;
+        font-family: dead;
+        
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        background-position: left center;
+        
+    }
+
+    
+    header {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        
+    }
+
+    nav a img {
+        display: flex;
+        margin-left: auto;
+         width: 200px;
+    }
+
+   
+    
+}
+
+
+
